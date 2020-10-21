@@ -1,0 +1,9 @@
+.light-blue{
+    background-color : rgba(201, 245, 253, 0.3);
+    transition: all 0.2s ease-out;
+}
+.light-blue:hover{
+    color: white;
+    background-color: #032446;
+    cursor: pointer;
+}

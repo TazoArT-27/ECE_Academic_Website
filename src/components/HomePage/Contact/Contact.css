@@ -1,0 +1,9 @@
+.links{
+    text-decoration: none;
+    color: white;
+}
+.links:hover{
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: none;
+}
