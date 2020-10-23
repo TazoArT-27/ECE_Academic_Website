@@ -10,7 +10,7 @@ import { faUserGraduate, faChalkboardTeacher, faUserAlt } from '@fortawesome/fre
 const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg bg navbar-light">
-<Link className="nav-link ml-2 mr-5 text-white" to="#">
+<Link className="nav-link ml-2 mr-5 text-white" to="/home">
   <img src={Logo} style={{height: '60px', width: '370px'}} alt=""/>
     <span className="title-icon"></span>
   </Link>

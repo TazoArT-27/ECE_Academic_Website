@@ -40,7 +40,7 @@ export default class PauseOnHover extends Component {
         pauseOnHover: true
       };
     return (
-          <div className="col-10 mx-auto pb-5">
+            <div className="col-10 mx-auto pb-5">
             <section className="carousel">
                   <h1 className="text-white text-center py-5">
                               Some Moments of <span style={{color: '#007BFF'}}>ECE</span>

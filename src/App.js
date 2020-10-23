@@ -5,21 +5,27 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Navbar from './components/HomePage/Navbar/Navbar';
 import HomePage from './components/HomePage/HomePage/HomePage';
+import HeadMessage from './components/HeadMessage/HeadMessage';
 
 function App() {
   return (
-    <div>
+    
     
       <Router>
       <Switch>
         <Route exact path="/">
           <HomePage></HomePage>
         </Route>
+        <Route path="/home">
+          <HomePage></HomePage>
+        </Route>
+        <Route path="/speech/:id">
+          <HeadMessage></HeadMessage>
+        </Route>
       </Switch>
     </Router>
-    </div>
+   
   );
 }
 

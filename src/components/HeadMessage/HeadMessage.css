@@ -1,0 +1,22 @@
+.main-part{
+    border-radius: 15px;
+    /* box-shadow: -10px 10px 10px lightgrey; */
+    -moz-box-shadow: 0 0 10px lightgrey;
+    -webkit-box-shadow: 0 0 10px lightgrey;
+    -o-box-shadow: 0 0 10px lightgrey;
+}
+.title-bg{
+    background-color : #032446;
+    border-radius: 10px;
+}
+.head-img{
+    height: 300px;
+    width: 320px;
+    box-shadow: 8px 15px 10px lightgrey;
+}
+.head-name{
+    color: #013C79;
+}
+.head-name:hover{
+   color: #FF4700;
+}
