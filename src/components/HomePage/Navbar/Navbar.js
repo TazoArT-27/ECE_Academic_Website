@@ -32,7 +32,7 @@ const Navbar = () => {
             </Link>
         </li>
         <li className="nav-item">
-            <Link className="nav-link mr-5 text-white" to="#">
+            <Link to='/seriesLoginSelection' className="nav-link mr-5 text-white">
                <button className="btn btn-primary"><FontAwesomeIcon className='mr-2' icon={faChalkboardTeacher} />Teacher Login</button>
             </Link>
         </li>

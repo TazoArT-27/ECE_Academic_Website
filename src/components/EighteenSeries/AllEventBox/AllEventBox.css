@@ -1,0 +1,41 @@
+.event-box1{
+   background: linear-gradient(45deg, #FBB040, #F9ED32);
+   border: none;
+   border-radius: 13px;
+   box-shadow: 15px 15px 10px lightgrey;
+}
+.event-box2{
+    background: linear-gradient(45deg, #7F00FF, #E100FF);
+    border: none;
+    border-radius: 13px;
+    box-shadow: 15px 15px 10px lightgrey;
+ }
+.event-box3{
+    background: linear-gradient(45deg, #EE2A7B, #FF7DB8);
+    border: none;
+    border-radius: 13px;
+    box-shadow: 15px 15px 10px lightgrey;
+ }
+.event-box4{
+    background: linear-gradient(45deg, #00A1FF, #00FF8F);
+    border: none;
+    border-radius: 13px;
+    box-shadow: 15px 15px 10px lightgrey;
+}
+.event-box5{
+    background: linear-gradient(45deg, #EF4136, #FBB040);
+    border: none;
+    border-radius: 13px;
+    box-shadow: 15px 15px 10px lightgrey;
+}
+
+.event-box:hover{
+    background: linear-gradient(45deg, #72CEFF, #2BA3FC);
+    transition: all .5s ease-in-out;
+}
+
+.event-box h5{
+    color: white;
+    font-size: 30px;
+}
+
