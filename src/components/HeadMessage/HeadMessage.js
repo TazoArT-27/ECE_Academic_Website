@@ -4,8 +4,8 @@ import Message from '../../Message/Message';
 import DeptHead from '../../images/teachers/shamimanower.jpg';
 import './HeadMessage.css';
 import Navbar from '../HomePage/Navbar/Navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faForward } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faForward } from '@fortawesome/free-solid-svg-icons';
 
 const HeadMessage = () => {
 

@@ -12,29 +12,29 @@ const Sidebar = () => {
             <ul className="list-unstyled">
                 <Link to="/seriesEighteen" style={{textDecoration: 'none'}}><h3 className="text-center text-white pb-4">ECE'18</h3></Link>
                 <li className="">
+                    <Link to="/addCTMarks" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
+                        <span className=' text-white'>Add CT Marks</span>
+                    </Link>
                     <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
                         <span className=' text-white'>CT Marks</span>
                     </Link>
-                    <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
-                        <span className=' text-white'>Add CT Marks</span>
+                    <Link to="/addLabMarks" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
+                    <span className=' text-white'>Add Lab Marks</span>
                     </Link>
                     <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
                         <span className=' text-white'>Lab Marks</span>
                     </Link>
-                    <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
-                    <span className=' text-white'>Add Lab Marks</span>
+                    <Link to="/addBoardVivaMarks" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
+                        <span className=' text-white'>Add Viva Marks</span>
                     </Link>
                     <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
                         <span className=' text-white'>Board Viva Marks</span>
                     </Link>
-                    <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
-                        <span className=' text-white'>Add Viva Marks</span>
+                    <Link to="/addCGPA" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
+                    <span className=' text-white'>Add CGPA</span>
                     </Link>
                     <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
-                        <span className=' text-white'>Semester Final Marks</span>
-                    </Link>
-                    <Link to="/" style={{color: "#111430", textDecoration: "none"}} className="d-flex align-items-center mt-3">
-                    <span className=' text-white'>Add Final Marks</span>
+                        <span className=' text-white'>Final CGPA</span>
                     </Link>
                 </li>
                 

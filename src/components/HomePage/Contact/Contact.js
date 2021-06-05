@@ -1,12 +1,27 @@
 import React from 'react';
+import emailjs from "emailjs-com";
 import Logo from '../../../images/logo/ruetlogo.png';
 import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt, faFax, faEnvelope, faGlobeAsia} from '@fortawesome/free-solid-svg-icons'
 
 const Contact = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+    emailjs.sendForm('gmail', 'ecegmail', e.target, 'user_lgEKnjkZpZdOECieL63TM')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
+
+
     return (
-        <div className="container-fluid bg" style={{height: '60vh'}}>
+        <div className="container-fluid bg" id="contact" style={{height: '60vh'}}>
             <div className="col-10 mx-auto">
             <div className='row py-5'>
                 <div className="col-md-3">
@@ -67,12 +82,15 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6">
                       <h3 className='text-white pl-1'>Contact Us</h3>
-                      <form>
+                      <form onSubmit={sendEmail}>
                         <div class="form-group">
-                            <input type="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                            <input type="email" name="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                         </div>
+                        {/* <div class="form-group">
+                            <input type="text" placeholder="Subject..." class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                        </div> */}
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Go ahead, we are listening..." id="exampleFormControlTextarea1" rows="5"></textarea>
+                            <textarea class="form-control" name="message" placeholder="Go ahead, we are listening..." id="exampleFormControlTextarea1" rows="5"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
@@ -80,7 +98,7 @@ const Contact = () => {
                 
             </div>
         </div>
-        <p class="text-center text-white">Built With Love By @shafayat_tazoar_2020</p>
+        <p class="text-center text-white">Made With Love By shafayat.tazoar27@gmail.com</p>
         </div>
     );
 };

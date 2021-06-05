@@ -2,7 +2,7 @@ import React from 'react';
 import NoticeTable from '../NoticeTable/NoticeTable';
 import './NoticeBoard.css';
 
-const NoticeBoard = () => {
+const NoticeBoard = ({notice}) => {
     return (
         <div>
             <div class="card notice-card" style={{width: '30rem'}}>
@@ -12,7 +12,7 @@ const NoticeBoard = () => {
                 </div>
             <div class="card-body">
                 
-                <NoticeTable></NoticeTable>
+                <NoticeTable notice={notice}></NoticeTable>
                 
             </div>
             </div>

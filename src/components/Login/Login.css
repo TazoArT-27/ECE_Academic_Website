@@ -1,0 +1,13 @@
+.login-container{
+    height: 650px;
+    width: 850px;
+    color:  #032446;
+    
+}
+.form-part{
+    /* border: 1px solid lightgrey; */
+    height: 270px;
+    width: 650px;
+    border-radius: 15px;
+    background-color: #E7F9FE;
+}

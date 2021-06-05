@@ -5,10 +5,11 @@
  .btn-series{
      background: linear-gradient(-135deg, #0575E6, #021B79)!important;
  }
-.body{
+.body1{
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    width: 100%;
     background: #111340;
     display: flex;
     justify-content: center;

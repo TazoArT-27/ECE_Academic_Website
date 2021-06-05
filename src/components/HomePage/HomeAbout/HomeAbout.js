@@ -18,7 +18,9 @@ const HomeAbout = () => {
                     <div className="col-md-6 py-5">
                         <h2 className="family navy-blue" >About <span style={{color: '#007BFF'}}>ECE</span> RUET</h2>
                         <p className="navy-blue title-p family">Rajshahi University of Engineering & Technology, one of the top engineering university in the country, has opened the department of Electrical and Computer Engineering (ECE) in 2016. The department has the mission of accumulation, generation and propagation of knowledge in the field of Electrical and Computer Engineering.....</p>
+                        <Link to='about'>
                         <button type="button" class="btn btn-outline-primary">Read More</button>
+                        </Link>
                     </div>
                     <div className="col-md-6 depthead-bg py-5">
                         <div className='ml-5'>

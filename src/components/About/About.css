@@ -1,0 +1,9 @@
+.dept-about{
+    background: #F8F8F8;
+    height: 100vh;
+}
+.dept-img{
+    height: 220px;
+    width: 330px;
+    box-shadow: 8px 15px 10px lightgrey;
+}

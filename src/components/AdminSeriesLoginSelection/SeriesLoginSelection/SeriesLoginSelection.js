@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 
     return (
-        <div className='body'>
+        <div className='body1'>
             <div class="container">
         <div class="cards">
             <div class="face face1">
@@ -50,7 +50,8 @@ import { Link } from 'react-router-dom';
             </div>
             <div class="face face2">
                 <div class="">
-                    <Link to="/seriesEighteen">
+                    {/* <Link to="/seriesEighteen"> */}
+                    <Link to="/eighteenPro">
                         <button className="btn btn-primary btn-series">Entry<FontAwesomeIcon className='ml-2' icon={faArrowRight} /></button>
                     </Link>
                 </div>

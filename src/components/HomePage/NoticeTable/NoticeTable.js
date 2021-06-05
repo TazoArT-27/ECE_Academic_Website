@@ -1,7 +1,7 @@
 import React from 'react';
 import './NoticeTable.css';
 
-const NoticeTable = () => {
+const NoticeTable = ({notice}) => {
     return (
         <div>
             <table class="table">
@@ -14,24 +14,15 @@ const NoticeTable = () => {
                     </tr>
                 </thead> */}
                 <tbody>
-                    <tr>
-                    <div className="sky-bg">
-                    <th className="yellow" scope="row">1</th>
-                    </div>
-                    <td>Mark is a very good man</td>
-                    </tr>
-                    <tr>
-                    <div className="sky-bg">
-                    <th className="yellow" scope="row">2</th>
-                    </div>
-                    <td>Mark is a very good man</td>
-                    </tr>
-                    <tr>
-                    <div className="sky-bg">
-                    <th className="yellow" scope="row">3</th>
-                    </div>
-                    <td>Mark is a very good man Mark is a very good man Mark is a very good man Mark is a very good man</td>
-                    </tr>
+                    {
+                        notice.map((notice, index=0) => 
+                        <tr>
+                            <td className="text-muted" style={{fontSize: '15px'}}>{notice.date}</td>
+                            <td style={{fontSize: '15px'}}>{notice.notice}</td>
+                        </tr>
+                        )
+                        
+                    }
                 </tbody>
             </table>
         </div>

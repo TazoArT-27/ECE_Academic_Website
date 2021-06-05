@@ -11,6 +11,11 @@
   outline: none !important;
   padding: 10px 20px;
 }
+.blue-btn:hover{
+  border: none;
+  color: white;
+  background: linear-gradient(#0575e6, #021b79); 
+}
 
 .fileUpload {
   position: relative;
